@@ -21,10 +21,6 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   </div>
 `;
 
-const teste = (n1: number) => {
-  return 2;
-};
-
-let caio = 10;
+const caio = 10;
 
 setupCounter(document.querySelector<HTMLButtonElement>("#counter")!);
